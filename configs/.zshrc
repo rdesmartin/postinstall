@@ -2,7 +2,7 @@
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
 # Path to your oh-my-zsh installation.
-export ZSH="/home/apollo/.oh-my-zsh"
+export ZSH="/home/$USER/.oh-my-zsh"
 
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
@@ -104,4 +104,4 @@ alias act=". ./venv/bin/activate"
 alias deac="deactivate"
 alias ipy="ipython"
 alias py="python"
-export PATH="/home/apollo/bin:"$PATH
+export PATH="/opt:/home/$USR/bin:"$PATH
